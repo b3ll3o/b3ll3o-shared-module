@@ -1,11 +1,9 @@
 import { Erro } from "./erro";
-import { Objeto } from "./objeto";
 
-export class NotificacaoErro extends Objeto<NotificacaoErro> {
+export class NotificacaoErro{
   private _erros: Erro[]
 
-  constructor(notificacaoErro: Partial<NotificacaoErro>){
-    super(notificacaoErro)
+  constructor(){
     this._erros = []
   }
 
