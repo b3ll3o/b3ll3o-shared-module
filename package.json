@@ -1,0 +1,26 @@
+{
+  "name": "b3ll3o-shared-module",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --declaration"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b3ll3o/b3ll3o-shared-module.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/b3ll3o/b3ll3o-shared-module/issues"
+  },
+  "homepage": "https://github.com/b3ll3o/b3ll3o-shared-module#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  }
+}
